@@ -1,0 +1,24 @@
+body {
+	font-family: 'Akzidenz-Grotesk Pro Regular';
+	font-size: 16px;
+	color: #404040;
+}
+.block {
+	background: #eee;
+}
+img {
+	max-width: 100%;
+}
+.slide {
+	position: relative;
+	&__title {
+		font-family: 'PT Serif', serif;
+		font-size: 60px;
+		color: #FFF;
+	}
+	&__content {
+		position: absolute;
+		bottom: 90px;
+		left: 198px;
+	}
+}
